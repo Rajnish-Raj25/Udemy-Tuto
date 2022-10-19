@@ -4,7 +4,8 @@ import UseStateWithObj from "./component/usestate/UseStateWithObj";
 import SampleCounter from "./component/usestate/SampleCounter";
 import UeseffBasic from "./component/useeffect/UeseffBasic";
 import FetchApi from "./component/useeffect/FetchApi";
-
+import Form from "./component/form/form";
+import MultipleInput from "./component/form/MultipleInput";
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,9 @@ function App() {
       {/* <UseStateWithObj /> */}
       {/* <SampleCounter /> */}
       {/* <UeseffBasic /> */}
-      <FetchApi />
+      {/* <FetchApi /> */}
+      {/* <Form /> */}
+      <MultipleInput />
     </div>
   );
 }
