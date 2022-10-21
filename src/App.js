@@ -6,7 +6,8 @@ import UeseffBasic from "./component/useeffect/UeseffBasic";
 import FetchApi from "./component/useeffect/FetchApi";
 import Form from "./component/form/form";
 import MultipleInput from "./component/form/MultipleInput";
-import Prop from "./Prop-drilling/Prop";
+import Prop from "./component/Prop-drilling/Prop";
+import Context from "./component/contextApi/context";
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
       {/* <FetchApi /> */}
       {/* <Form /> */}
       {/* <MultipleInput /> */}
-      <Prop />
+      {/* <Prop /> */}
+      <Context />
     </div>
   );
 }
