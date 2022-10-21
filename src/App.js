@@ -6,6 +6,7 @@ import UeseffBasic from "./component/useeffect/UeseffBasic";
 import FetchApi from "./component/useeffect/FetchApi";
 import Form from "./component/form/form";
 import MultipleInput from "./component/form/MultipleInput";
+import Prop from "./Prop-drilling/Prop";
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
       {/* <UeseffBasic /> */}
       {/* <FetchApi /> */}
       {/* <Form /> */}
-      <MultipleInput />
+      {/* <MultipleInput /> */}
+      <Prop />
     </div>
   );
 }
